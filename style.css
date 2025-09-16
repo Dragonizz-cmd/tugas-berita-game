@@ -1,0 +1,127 @@
+.hero {
+  background-image: url("https://www.itworks.id/wp-content/uploads/2021/07/Gameqoo.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 80px;
+  color: white;
+  font-size: larger;
+}
+.navbar {
+  position: relative;
+  overflow: hidden;
+  background-color: #1e2127;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.navbar a {
+  font-size: 10px;
+  font-weight: bold;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.side {
+  flex: 40%;
+  background-color: white;
+  padding: 10px;
+}
+.side img {
+  margin-top: 2px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+.main {
+  flex: 60%;
+  background-color: white;
+  padding: 10px;
+}
+.menutama {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 1px 2px 4px grey;
+  padding: 10px;
+  border-radius: 12px;
+  max-width: 100%;
+  margin: 6px auto;
+}
+
+.menutama p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.menutama img {
+  width: 150px;
+  height: auto;
+  margin-left: 1rem;
+  border-radius: 10px;
+}
+.fakeimg {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+.rillpoto {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 24rem;
+  margin-top: 5px;
+}
+.footer {
+  padding: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: left;
+  color: white;
+  background: #1e2127;
+  margin-top: 10px;
+}
+
+.footer a {
+  color: wheat;
+}
+
+.footer a:hover {
+  color: skyblue;
+}
+
+.footer h2 {
+  text-align: left;
+  padding: 0px;
+  color: white;
+}
+#emoji {
+  color: red;
+}
+#terbang {
+  color: #1e2127;
+  font-size: 20px;
+  font-weight: bold;
+}
+#terbangatas {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  max-width: 6px;
+}
